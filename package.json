@@ -1,0 +1,7 @@
+{
+  "name":"farmer-id-platform-starter","version":"1.0.0","private":true,
+  "description":"Separate Farmer Profile ID portal starter with admin/user authentication, OTP and Razorpay payment verification",
+  "scripts":{"start":"node server.js","dev":"node --watch server.js"},
+  "engines":{"node":">=20"},
+  "dependencies":{"bcryptjs":"^2.4.3","dotenv":"^16.4.7","express":"^4.21.2","express-rate-limit":"^7.5.0","helmet":"^8.0.0","jsonwebtoken":"^9.0.2","razorpay":"^2.9.5","better-sqlite3":"^11.8.1"}
+}
